@@ -1,15 +1,14 @@
 \documentclass[11pt]{article}
 \usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
 \usepackage{enumitem}
-\usepackage{hyperref}
-\usepackage{ulem} % Add underline support for section titles
+\usepackage[colorlinks=true, urlcolor=blue]{hyperref}
+\usepackage{ulem}
 \usepackage{enumitem}
 
-% Updated heading command for underlined section titles
 \newcommand{\cvsection}[1]{%
     \vspace{1em}%
     \noindent\textbf{\uline{#1}}%
-    \vspace{1em}%
+    \vspace{0.5em}%
 }
 
 \begin{document}
@@ -28,7 +27,7 @@
 
 \cvsection{Employment}
 \begin{itemize}[leftmargin=7em, labelwidth=5em, labelsep=1em, itemindent=0em, align=left]
-    \item[2030–] \textbf{University}, Department\\
+    \item[2030–] \textbf{C University}, Department\\
                       Assistant Professor
 \end{itemize}
 
@@ -43,54 +42,56 @@
 
 \cvsection{Research Papers}
 
-%\textbf{Refereed Publications}
-%\begin{itemize}[leftmargin=2em, labelwidth=5em, labelsep=1em, itemindent=0em, align=left]
-    %\item[] Authors. (Year). \textit{Paper title}. Journal, Volume(Issue), Pages.
-%\end{itemize}
+\noindent\textbf{Publications}
+\begin{itemize}[leftmargin=1em, labelwidth=0em, labelsep=0em, itemindent=0em, align=left]
+    \item[] ``Title'' (with Coauthors), \textit{Journal}, Volume(Issue), Pages, Year
+\end{itemize}
 
 \noindent\textbf{Working Papers}
 \begin{itemize}[leftmargin=1em, labelwidth=0em, labelsep=0em, itemindent=0em, align=left]
-    \item[] Authors. (Year). \textit{Paper title}. Journal, Volume(Issue), Pages.
+    \item[] ``Title''
+    \item[] ``Title'' (with Coauthors)
 \end{itemize}
 
 \noindent\textbf{Work in Progress}
 \begin{itemize}[leftmargin=1em, labelwidth=0em, labelsep=0em, itemindent=0em, align=left]
-    \item[] Authors. (Year). \textit{Paper title}. Journal, Volume(Issue), Pages.
+    \item[] ``Title''
+    \item[] ``Title'' (with Coauthors)
 \end{itemize}
 
 \cvsection{Professional Activities \& Service}
 
 \noindent\textbf{Presentations (including scheduled)}
 \begin{itemize}[leftmargin=4em, labelwidth=2em, labelsep=1em, itemindent=0em, align=left]
-    \item[2024] CFPB Research Conference, SFS Cavalcade North America, MFA, SWFA, FDIC Consumer Research Symposium, Peking University (Guanghua, PHBS), Shanghai Advanced Institute of Finance, Chinese University of Hong Kong, City University of Hong Kong, Lingnan University
-    \item[2023] Urban Institute, Lake Forest College, Federal Reserve Bank of Chicago, Freddie Mac, Inter-Finance PhD Seminar, Northwestern University (Kellogg)
-    \item[2022] Federal Housing Finance Agency, Northwestern University (Kellogg)
-    \item[2021] Northwestern University (Kellogg)
-    \item[2020] Northwestern University (Kellogg, Econ), Peking University (Public Health)
-    \item[2018] Shanghai Academy of Social Sciences
-    \item[2017] Peking University (NSD), China Center for Economic Research Summer Institute
-\end{itemize}
-
-\noindent\textbf{Program Committee}
-\begin{itemize}[leftmargin=4em, labelwidth=2em, labelsep=1em, itemindent=0em, align=left]
-    \item[] Southern Finance Association Annual Meeting (SFA)
+    \item[2030] Conference, University
+    \item[2029] Institute, Seminar, University
 \end{itemize}
 
 \noindent\textbf{Referee}
 \begin{itemize}[leftmargin=4em, labelwidth=2em, labelsep=1em, itemindent=0em, align=left]
-    \item[] Health Economics, Emerging Markets Finance and Trade
+    \item[] Journal 1, Journal 2
 \end{itemize}
 
 \noindent\textbf{Discussions (including scheduled)}
+\begin{itemize}[leftmargin=4em, labelwidth=2em, labelsep=1em, itemindent=0em, align=left]
+    \item[2030] Authors: \textit{``Title''} (Conference) \\
+                Authors: \textit{``Title''} (Conference)
+    \item[2029] Authors: \textit{``Title''} (Conference)
+\end{itemize}
 
 \cvsection{Teaching Experience}
-\begin{itemize}[leftmargin=*]
-    \item \textbf{Course Name} (Year–Present), Institution. Brief description.
+\begin{itemize}[leftmargin=7em, labelwidth=5em, labelsep=1em, itemindent=0em, align=left]
+    \item[2025–2030] \textbf{A University}, School\\
+                      Course 1 (Undergrad), Role
+    \item[2021–2025] \textbf{B University}\\
+                      Course 2 (MBA), Role \\
+                      Course 3 (Ph.D.), Role
 \end{itemize}
 
 \cvsection{Grants, Honors, and Awards}
-\begin{itemize}[leftmargin=*]
-    \item \textbf{Award}, Institution (Year) Description.
+\begin{itemize}[leftmargin=1em, labelwidth=0em, labelsep=0em, itemindent=0em, align=left]
+    \item[] Award \hfill 2028
+    \item[] Grant \hfill 2022-2027
 \end{itemize}
 
 \end{document}

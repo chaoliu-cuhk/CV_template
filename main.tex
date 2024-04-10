@@ -1,0 +1,96 @@
+\documentclass[11pt]{article}
+\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{ulem} % Add underline support for section titles
+\usepackage{enumitem}
+
+% Updated heading command for underlined section titles
+\newcommand{\cvsection}[1]{%
+    \vspace{1em}%
+    \noindent\textbf{\uline{#1}}%
+    \vspace{1em}%
+}
+
+\begin{document}
+\begin{center}
+    {\huge\textbf{YOUR NAME}}
+    \vspace{1em}
+\end{center}
+
+\noindent
+\begin{tabular}{@{}p{0.5\textwidth} p{0.5\textwidth}}
+    Updated: April, 2024 & \raggedleft University  \tabularnewline
+    Email: \href{mailto:your.email@example.com}{your.email@example.com} & \raggedleft Department \tabularnewline
+    Website: \href{http://www.yourwebsite.com}{www.yourwebsite.com} & \raggedleft Office \tabularnewline
+    Mobile: & \raggedleft Country \tabularnewline
+\end{tabular}
+
+\cvsection{Employment}
+\begin{itemize}[leftmargin=7em, labelwidth=5em, labelsep=1em, itemindent=0em, align=left]
+    \item[2030–] \textbf{University}, Department\\
+                      Assistant Professor
+\end{itemize}
+
+\cvsection{Education}
+\begin{itemize}[leftmargin=7em, labelwidth=5em, labelsep=1em, itemindent=0em, align=left]
+    \item[2025–2030] \textbf{A University}, School\\
+                      Ph.D. in 
+    \item[2021–2025] \textbf{B University}\\
+                      M.A. in  \\
+                      B.A. in 
+\end{itemize}
+
+\cvsection{Research Papers}
+
+%\textbf{Refereed Publications}
+%\begin{itemize}[leftmargin=2em, labelwidth=5em, labelsep=1em, itemindent=0em, align=left]
+    %\item[] Authors. (Year). \textit{Paper title}. Journal, Volume(Issue), Pages.
+%\end{itemize}
+
+\noindent\textbf{Working Papers}
+\begin{itemize}[leftmargin=1em, labelwidth=0em, labelsep=0em, itemindent=0em, align=left]
+    \item[] Authors. (Year). \textit{Paper title}. Journal, Volume(Issue), Pages.
+\end{itemize}
+
+\noindent\textbf{Work in Progress}
+\begin{itemize}[leftmargin=1em, labelwidth=0em, labelsep=0em, itemindent=0em, align=left]
+    \item[] Authors. (Year). \textit{Paper title}. Journal, Volume(Issue), Pages.
+\end{itemize}
+
+\cvsection{Professional Activities \& Service}
+
+\noindent\textbf{Presentations (including scheduled)}
+\begin{itemize}[leftmargin=4em, labelwidth=2em, labelsep=1em, itemindent=0em, align=left]
+    \item[2024] CFPB Research Conference, SFS Cavalcade North America, MFA, SWFA, FDIC Consumer Research Symposium, Peking University (Guanghua, PHBS), Shanghai Advanced Institute of Finance, Chinese University of Hong Kong, City University of Hong Kong, Lingnan University
+    \item[2023] Urban Institute, Lake Forest College, Federal Reserve Bank of Chicago, Freddie Mac, Inter-Finance PhD Seminar, Northwestern University (Kellogg)
+    \item[2022] Federal Housing Finance Agency, Northwestern University (Kellogg)
+    \item[2021] Northwestern University (Kellogg)
+    \item[2020] Northwestern University (Kellogg, Econ), Peking University (Public Health)
+    \item[2018] Shanghai Academy of Social Sciences
+    \item[2017] Peking University (NSD), China Center for Economic Research Summer Institute
+\end{itemize}
+
+\noindent\textbf{Program Committee}
+\begin{itemize}[leftmargin=4em, labelwidth=2em, labelsep=1em, itemindent=0em, align=left]
+    \item[] Southern Finance Association Annual Meeting (SFA)
+\end{itemize}
+
+\noindent\textbf{Referee}
+\begin{itemize}[leftmargin=4em, labelwidth=2em, labelsep=1em, itemindent=0em, align=left]
+    \item[] Health Economics, Emerging Markets Finance and Trade
+\end{itemize}
+
+\noindent\textbf{Discussions (including scheduled)}
+
+\cvsection{Teaching Experience}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Course Name} (Year–Present), Institution. Brief description.
+\end{itemize}
+
+\cvsection{Grants, Honors, and Awards}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Award}, Institution (Year) Description.
+\end{itemize}
+
+\end{document}
